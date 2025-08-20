@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Eventos - Home</title>
 </head>
-<body>
-    <h1>Olá Mundo, sou a página Home!</h1>
+<body class="bg-gray-100">
+    <header class="bg-blue-700 text-white p-6 text-center">
+        <h1 class="text-3xl font-bold">Bem Vindo a Evento+</h1>
+        <p class="mt-2">Organizando momentos inesqueciveis para você!</p>
+        <div class="my-3">
+            <a class="text-lg hover:underline mx-2" href="#">Home</a>
+            <a class="text-lg hover:underline mx-2" href="#">Serviços</a>
+            <a class="text-lg hover:underline mx-2" href="#">Contatos</a>
+            <a class="text-lg hover:underline mx-2" href="#">Portifólio</a>
+        </div>
+    </header>
+    <section class="container min-h-[80vh] mx-auto mt-8 p-6 text-center">
+        <h2 class="text-2xl font-semibold mb-4">Nossos destaques</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-white min-h-80 h-auto shadow-md p-4 rounded-lg">
+                <img src="./img/casamento.jpg" alt="" class="w-full min-h-48 h-auto max-h-64 rounded-2xl object-cover">
+                <h3 class="font-bold text-lg mt-8">Casamentos</h3>
+                <p>Planejamento completo para seu grande dia</p>
+            </div>
+            <div class="bg-white min-h-80 shadow-md p-4 rounded-lg h-auto">
+                <img src="./img/show.jpg" alt="" class="w-full min-h-48 h-auto max-h-64 rounded-2xl object-cover">
+                <h3 class="font-bold text-lg mt-8">Shows</h3>
+                <p>Estrutura de palco, som e iluminação de alta qualidade</p>
+            </div>
+            <div class="bg-white min-h-80 h-auto shadow-md p-4 rounded-lg">
+                <img src="./img/corporativo.jpg" alt="" class="w-full min-h-48 h-auto max-h-64 rounded-2xl object-cover">
+                <h3 class="font-bold text-lg mt-8">Corporativos</h3>
+                <p>Eventos empresariais com profissionalismo e elegância</p>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-blue-700 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 Eventos+. Todos os direitos reservados</p>
+    </footer>
 </body>
 </html>
