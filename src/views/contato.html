@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Eventos - Home</title>
+</head>
+<body>
+    <header class="bg-blue-700 text-white p-6 text-center">
+        <h1 class="text-3xl font-bold">Bem Vindo a Evento+</h1>
+        <p class="mt-2">Organizando momentos inesqueciveis para você!</p>
+        <div class="my-3">
+            <a class="text-lg hover:underline mx-2" href="#">Home</a>
+            <a class="text-lg hover:underline mx-2" href="#">Serviços</a>
+            <a class="text-lg hover:underline mx-2" href="#">Contatos</a>
+            <a class="text-lg hover:underline mx-2" href="#">Portifólio</a>
+        </div>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-6 my-6 p-6 items-center">
+        <form action="/contato" method="post" class="bg-white p-6 rounded-lg shadow-md ">
+            <div class="mb-4">
+                <label for="nome" class="block text-gray-700 font-medium">Nome</label>
+                <input type="text" id="nome" name="nome" class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-blue-500" required placeholder="Digite seu nome completo">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700 font-medium">Email</label>
+                <input type="email" id="email" name="email" class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-blue-500" required placeholder="Digite seu email">
+            </div>
+            
+            <div class="mb-4">
+                <label for="whatsapp" class="block text-gray-700 font-medium">Whatsapp</label>
+                <input type="text" id="whatsapp" name="whatsapp" class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-blue-500" required placeholder="Digite seu contato do whatsapp">
+            </div>
+
+            <div class="mb-4">
+                <label for="mensagem" class="block text-gray-700 font-medium">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" class="w-full border rounded p-2 mt-1 focus:ring-2 focus:ring-blue-500" required rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-blue-700 text-white py-2 rounded-lg hover:bg-blue-800 transition">Enviar</button>
+        </form>
+        <div class="ml-5">
+            <h2 class="text-3xl font-bold mb-4 text-brand-azul">📩 Fale Conosco</h2>
+            <p class="mb-4">
+                Queremos ouvir você! Entre em contato conosco diretamente pelo nosso site e envie suas informações para que possamos responder o mais rápido possível.
+            </p>
+            <p>Basta preencher o formulário com:</p></br>
+            <ul class="list-disc pl-6 space-y-2">
+                <li>Nome;</li>
+                <li>Email;</li>
+                <li>Número do whatsapp;</li>
+                <li>E por fim uma mensagem.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-blue-700 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 Eventos+. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

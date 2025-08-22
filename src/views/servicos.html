@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Eventos - Home</title>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-blue-700 text-white p-6 text-center">
+        <h1 class="text-3xl font-bold">Bem Vindo a Evento+</h1>
+        <p class="mt-2">Organizando momentos inesqueciveis para você!</p>
+        <div class="my-3">
+            <a class="text-lg hover:underline mx-2" href="#">Home</a>
+            <a class="text-lg hover:underline mx-2" href="#">Serviços</a>
+            <a class="text-lg hover:underline mx-2" href="#">Contatos</a>
+            <a class="text-lg hover:underline mx-2" href="#">Portifólio</a>
+        </div>
+
+        <script src="https://unpkg.com/lucide@latest"></script>    
+    </header>
+
+    <section class="text-center mb-12">
+        <h2 class="text-3xl font-bold text-brand-azul mb-4">Nossos Serviços</h2>
+        <p class="text-gray-700">Planejamento completo de eventos, da concepção à execução impecável</p>
+    </section>
+
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+            <i data-lucide="party-popper" class="w-10 h-10 text-brand-dourado mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Casamentos</h3>
+            <p>Organização completa de cerimônias e festas inesquecíveis, com atenção a cada detalhe</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+            <i data-lucide="music" class="w-10 h-10 text-brand-dourado mb-4"></i>
+            <h3>Shows e Concertos</h3>
+            <p>Estrutura de palco, sonorização e iluminação de última geração para grandes produções</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+            <i data-lucide="briefcase" class="w-10 h-10 text-brand-dourado mb-4"></i>
+            <h3>Corporativos</h3>
+            <p>Eventos empresáriais com sofisticação, reforçando a identidade e imagem da sua marca</p>
+        </div>
+    </div>
+
+    <section class="mt-16 text-center">
+        <h2 class="text-3xl font-bold text-brand-azul mb-6">Nossa Equipe</h2>
+        <p class="max-w-2xl mx-auto mb-8 text-gray-700">
+            Nossa equipe é formada por profissionais apaixonados por transformar momentos em experiências únicas.
+            Contamos com organizadores, designers de eventos, técnicos de som e iluminação, além de especialistas em gastronomia.
+        </p>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./img/organizadora.jpg" alt="Organizadora" class="w-24 h-24 mx-auto rounded-full mb-4 object-cover">
+                <h3 class="font-semibold">Ana Silva</h3>
+                <p class="text-sm text-gray-600">Organizadora de Eventos</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./img/tecnico.jpg" alt="Técnico" class="w-24 h-24 mx-auto rounded-full mb-4 object-cover">
+                <h3 class="font-semibold">Carlos Mendes</h3>
+                <p class="text-sm text-gray-600">Som e Iluminação</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <img src="./img/cozinheira.jpg" alt="Organizadora" class="w-24 h-24 mx-auto rounded-full mb-4 object-cover">
+                <h3 class="font-semibold">Juliana Costa</h3>
+                <p class="text-sm text-gray-600">Gastronomia e Buffet</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-700 text-white text-center p-4 mt-8">
+        <p>&copy; 2025 Eventos+. Todos os direitos reservados</p>
+    </footer>
+
+    <script>lucide.createIcons()</script>
+</body>
+</html>
